@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+	<title>Steven Patrick's Webpage</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    
+    <h1><span class="shadow">      Steven Patrick's Personal Website</span></h1>
+<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="skills.html">Abilities</a></li>
+        	<li><a href="education.html">Education</a></li>
+        	<li><a href="experience.html">Experience</a>
+        	
+         
+    	</ul>
+	</nav>
+	<header>
+        <h2>Yes</h2>
+        
+		<div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sgrA3xqB4sI" frameborder="0" allowfullscreen></iframe></div>
+        
+		
+	</header>
+	
+	<main>
+
+	<h1>Contact Steven</h1>
+    
+	<form action="sendmail.php" method="post" name="contact_form" id="contact_form">
+		<fieldset>
+        	<legend>Contact Information</legend>
+            <label for="first_name">First Name:</label>
+			<input type="text" name="first_name" id="first_name" required><br>
+			<label for="last_name">Last Name:</label>
+			<input type="text" name="last_name" id="last_name" required><br>
+        	<label for="email">Email Address:</label>
+        	<input type="email" name="email" id="email" required><br>
+			<label for="phone">Phone Number:</label>
+			<input type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="999-999-9999" required><br>
+		</fieldset>
+		<fieldset>
+    		<legend>Message Information</legend>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+		</fieldset>
+		<fieldset id="buttons">
+			<legend>Submit Your Email Message</legend>
+			<label>&nbsp;</label>
+			<input type="submit" id="submit" value="Send Email">
+			<input type="reset" id="reset" value="Reset"><br>
+		</fieldset>
+	</form>
+        
+            <p> Feel free to also text or call me at 414-745-0915!</p>
+		<aside>
+			<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="skills.html">Skills and abilities</a></li>
+        	<li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html"><b>Contact Steven</b></a></li>
+    	</ul>
+        </aside>
+        	</main>
+    
+	<footer>
+		<p>&copy; 2017 Steven Patrick </p>
+	</footer>
+</body>
+</html>
